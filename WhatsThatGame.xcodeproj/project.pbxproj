@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50056F70CFCE2319DC251450 /* Pods_WhatsThatGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4652A791B3C09F681690812 /* Pods_WhatsThatGame.framework */; };
+		911ADCDA21267835008F87E1 /* MasterTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911ADCD921267835008F87E1 /* MasterTableCell.swift */; };
+		911ADCE12126A76A008F87E1 /* ComicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911ADCDF2126A76A008F87E1 /* ComicDetailViewController.swift */; };
+		911ADCE22126A76A008F87E1 /* ComicDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 911ADCE02126A76A008F87E1 /* ComicDetailViewController.xib */; };
+		911E4051212E78B900AAB287 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911E4050212E78B900AAB287 /* Constants.swift */; };
+		91242453212A5B9200DCBD9D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91242452212A5B9200DCBD9D /* Alamofire.swift */; };
+		91242457212A5FEA00DCBD9D /* ComicCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91242456212A5FEA00DCBD9D /* ComicCharacter.swift */; };
+		91242459212A611F00DCBD9D /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91242458212A611F00DCBD9D /* Thumbnail.swift */; };
+		914AA1162125207600BD230A /* MasterTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 914AA1142125207600BD230A /* MasterTableCell.xib */; };
+		914AA11821252AB500BD230A /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914AA11721252AB500BD230A /* HelperFunctions.swift */; };
+		916C0443212AC83F00D12AAD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916C0442212AC83E00D12AAD /* DetailViewController.swift */; };
+		91A279102122BF42008B3A7C /* ComicBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A2790F2122BF42008B3A7C /* ComicBook.swift */; };
+		91B3C12A212D21E10087DC73 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B3C129212D21E10087DC73 /* Response.swift */; };
+		91FB7FBF21217DAD007F9FDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FB7FBE21217DAD007F9FDA /* AppDelegate.swift */; };
+		91FB7FC121217DAD007F9FDA /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FB7FC021217DAD007F9FDA /* MasterViewController.swift */; };
+		91FB7FC621217DAD007F9FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FB7FC421217DAD007F9FDA /* Main.storyboard */; };
+		91FB7FC821217DAF007F9FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FB7FC721217DAF007F9FDA /* Assets.xcassets */; };
+		91FB7FCB21217DAF007F9FDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FB7FC921217DAF007F9FDA /* LaunchScreen.storyboard */; };
+		91FB7FD621217DAF007F9FDA /* WhatsThatGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FB7FD521217DAF007F9FDA /* WhatsThatGameTests.swift */; };
+		91FB7FE121217DAF007F9FDA /* WhatsThatGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FB7FE021217DAF007F9FDA /* WhatsThatGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91FB7FD221217DAF007F9FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91FB7FB321217DAD007F9FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91FB7FBA21217DAD007F9FDA;
+			remoteInfo = WhatsThatGame;
+		};
+		91FB7FDD21217DAF007F9FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91FB7FB321217DAD007F9FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91FB7FBA21217DAD007F9FDA;
+			remoteInfo = WhatsThatGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E2E3C2D6872628797772E91 /* Pods-WhatsThatGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsThatGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsThatGame/Pods-WhatsThatGame.release.xcconfig"; sourceTree = "<group>"; };
+		911ADCD921267835008F87E1 /* MasterTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableCell.swift; sourceTree = "<group>"; };
+		911ADCDF2126A76A008F87E1 /* ComicDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicDetailViewController.swift; sourceTree = "<group>"; };
+		911ADCE02126A76A008F87E1 /* ComicDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComicDetailViewController.xib; sourceTree = "<group>"; };
+		911E4050212E78B900AAB287 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		91242452212A5B9200DCBD9D /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		91242456212A5FEA00DCBD9D /* ComicCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicCharacter.swift; sourceTree = "<group>"; };
+		91242458212A611F00DCBD9D /* Thumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
+		914AA1142125207600BD230A /* MasterTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MasterTableCell.xib; path = WhatsThatGame/Views/MasterTableCell.xib; sourceTree = SOURCE_ROOT; };
+		914AA11721252AB500BD230A /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		916C0442212AC83E00D12AAD /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		91A2790F2122BF42008B3A7C /* ComicBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicBook.swift; sourceTree = "<group>"; };
+		91B3C129212D21E10087DC73 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		91FB7FBB21217DAD007F9FDA /* WhatsThatGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsThatGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FB7FBE21217DAD007F9FDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91FB7FC021217DAD007F9FDA /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		91FB7FC521217DAD007F9FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91FB7FC721217DAF007F9FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91FB7FCA21217DAF007F9FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91FB7FCC21217DAF007F9FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FB7FD121217DAF007F9FDA /* WhatsThatGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsThatGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FB7FD521217DAF007F9FDA /* WhatsThatGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsThatGameTests.swift; sourceTree = "<group>"; };
+		91FB7FD721217DAF007F9FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FB7FDC21217DAF007F9FDA /* WhatsThatGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsThatGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FB7FE021217DAF007F9FDA /* WhatsThatGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsThatGameUITests.swift; sourceTree = "<group>"; };
+		91FB7FE221217DAF007F9FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2EAA1011366DAAB6A65097F /* Pods-WhatsThatGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsThatGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsThatGame/Pods-WhatsThatGame.debug.xcconfig"; sourceTree = "<group>"; };
+		F4652A791B3C09F681690812 /* Pods_WhatsThatGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsThatGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91FB7FB821217DAD007F9FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50056F70CFCE2319DC251450 /* Pods_WhatsThatGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FB7FCE21217DAF007F9FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FB7FD921217DAF007F9FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F250EA05EDC0804E5EF210B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4652A791B3C09F681690812 /* Pods_WhatsThatGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		910369F62123C51E005606A3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				91FB7FC421217DAD007F9FDA /* Main.storyboard */,
+				91FB7FC921217DAF007F9FDA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		910369F72123C52A005606A3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				911ADCDF2126A76A008F87E1 /* ComicDetailViewController.swift */,
+				91FB7FC021217DAD007F9FDA /* MasterViewController.swift */,
+				916C0442212AC83E00D12AAD /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		911ADCD5212676BE008F87E1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				91242452212A5B9200DCBD9D /* Alamofire.swift */,
+				911E4050212E78B900AAB287 /* Constants.swift */,
+				914AA11721252AB500BD230A /* HelperFunctions.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		911ADCD8212677A8008F87E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				914AA1142125207600BD230A /* MasterTableCell.xib */,
+				911ADCE02126A76A008F87E1 /* ComicDetailViewController.xib */,
+				911ADCD921267835008F87E1 /* MasterTableCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9124245A212A7F7D00DCBD9D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				91B3C129212D21E10087DC73 /* Response.swift */,
+				91A2790F2122BF42008B3A7C /* ComicBook.swift */,
+				91242458212A611F00DCBD9D /* Thumbnail.swift */,
+				91242456212A5FEA00DCBD9D /* ComicCharacter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		91FB7FB221217DAD007F9FDA = {
+			isa = PBXGroup;
+			children = (
+				91FB7FBD21217DAD007F9FDA /* WhatsThatGame */,
+				91FB7FD421217DAF007F9FDA /* WhatsThatGameTests */,
+				91FB7FDF21217DAF007F9FDA /* WhatsThatGameUITests */,
+				91FB7FBC21217DAD007F9FDA /* Products */,
+				A051DB4E7364A35BD08C7F9C /* Pods */,
+				8F250EA05EDC0804E5EF210B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91FB7FBC21217DAD007F9FDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91FB7FBB21217DAD007F9FDA /* WhatsThatGame.app */,
+				91FB7FD121217DAF007F9FDA /* WhatsThatGameTests.xctest */,
+				91FB7FDC21217DAF007F9FDA /* WhatsThatGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91FB7FBD21217DAD007F9FDA /* WhatsThatGame */ = {
+			isa = PBXGroup;
+			children = (
+				91FB7FBE21217DAD007F9FDA /* AppDelegate.swift */,
+				9124245A212A7F7D00DCBD9D /* Models */,
+				91FB7FC721217DAF007F9FDA /* Assets.xcassets */,
+				91FB7FCC21217DAF007F9FDA /* Info.plist */,
+				911ADCD8212677A8008F87E1 /* Views */,
+				910369F72123C52A005606A3 /* ViewControllers */,
+				910369F62123C51E005606A3 /* Storyboards */,
+				911ADCD5212676BE008F87E1 /* Others */,
+			);
+			path = WhatsThatGame;
+			sourceTree = "<group>";
+		};
+		91FB7FD421217DAF007F9FDA /* WhatsThatGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				91FB7FD521217DAF007F9FDA /* WhatsThatGameTests.swift */,
+				91FB7FD721217DAF007F9FDA /* Info.plist */,
+			);
+			path = WhatsThatGameTests;
+			sourceTree = "<group>";
+		};
+		91FB7FDF21217DAF007F9FDA /* WhatsThatGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91FB7FE021217DAF007F9FDA /* WhatsThatGameUITests.swift */,
+				91FB7FE221217DAF007F9FDA /* Info.plist */,
+			);
+			path = WhatsThatGameUITests;
+			sourceTree = "<group>";
+		};
+		A051DB4E7364A35BD08C7F9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2EAA1011366DAAB6A65097F /* Pods-WhatsThatGame.debug.xcconfig */,
+				0E2E3C2D6872628797772E91 /* Pods-WhatsThatGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91FB7FBA21217DAD007F9FDA /* WhatsThatGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FB7FE521217DAF007F9FDA /* Build configuration list for PBXNativeTarget "WhatsThatGame" */;
+			buildPhases = (
+				D15E87059EAC858D04BF3558 /* [CP] Check Pods Manifest.lock */,
+				91FB7FB721217DAD007F9FDA /* Sources */,
+				91FB7FB821217DAD007F9FDA /* Frameworks */,
+				91FB7FB921217DAD007F9FDA /* Resources */,
+				1590B2E3498B02DDCD3269A9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsThatGame;
+			productName = WhatsThatGame;
+			productReference = 91FB7FBB21217DAD007F9FDA /* WhatsThatGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91FB7FD021217DAF007F9FDA /* WhatsThatGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FB7FE821217DAF007F9FDA /* Build configuration list for PBXNativeTarget "WhatsThatGameTests" */;
+			buildPhases = (
+				91FB7FCD21217DAF007F9FDA /* Sources */,
+				91FB7FCE21217DAF007F9FDA /* Frameworks */,
+				91FB7FCF21217DAF007F9FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91FB7FD321217DAF007F9FDA /* PBXTargetDependency */,
+			);
+			name = WhatsThatGameTests;
+			productName = WhatsThatGameTests;
+			productReference = 91FB7FD121217DAF007F9FDA /* WhatsThatGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91FB7FDB21217DAF007F9FDA /* WhatsThatGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FB7FEB21217DAF007F9FDA /* Build configuration list for PBXNativeTarget "WhatsThatGameUITests" */;
+			buildPhases = (
+				91FB7FD821217DAF007F9FDA /* Sources */,
+				91FB7FD921217DAF007F9FDA /* Frameworks */,
+				91FB7FDA21217DAF007F9FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91FB7FDE21217DAF007F9FDA /* PBXTargetDependency */,
+			);
+			name = WhatsThatGameUITests;
+			productName = WhatsThatGameUITests;
+			productReference = 91FB7FDC21217DAF007F9FDA /* WhatsThatGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91FB7FB321217DAD007F9FDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Fiel Faustino";
+				TargetAttributes = {
+					91FB7FBA21217DAD007F9FDA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					91FB7FD021217DAF007F9FDA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 91FB7FBA21217DAD007F9FDA;
+					};
+					91FB7FDB21217DAF007F9FDA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 91FB7FBA21217DAD007F9FDA;
+					};
+				};
+			};
+			buildConfigurationList = 91FB7FB621217DAD007F9FDA /* Build configuration list for PBXProject "WhatsThatGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91FB7FB221217DAD007F9FDA;
+			productRefGroup = 91FB7FBC21217DAD007F9FDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91FB7FBA21217DAD007F9FDA /* WhatsThatGame */,
+				91FB7FD021217DAF007F9FDA /* WhatsThatGameTests */,
+				91FB7FDB21217DAF007F9FDA /* WhatsThatGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91FB7FB921217DAD007F9FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FB7FCB21217DAF007F9FDA /* LaunchScreen.storyboard in Resources */,
+				91FB7FC821217DAF007F9FDA /* Assets.xcassets in Resources */,
+				914AA1162125207600BD230A /* MasterTableCell.xib in Resources */,
+				911ADCE22126A76A008F87E1 /* ComicDetailViewController.xib in Resources */,
+				91FB7FC621217DAD007F9FDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FB7FCF21217DAF007F9FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FB7FDA21217DAF007F9FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1590B2E3498B02DDCD3269A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WhatsThatGame/Pods-WhatsThatGame-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatsThatGame/Pods-WhatsThatGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D15E87059EAC858D04BF3558 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhatsThatGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91FB7FB721217DAD007F9FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916C0443212AC83F00D12AAD /* DetailViewController.swift in Sources */,
+				914AA11821252AB500BD230A /* HelperFunctions.swift in Sources */,
+				91A279102122BF42008B3A7C /* ComicBook.swift in Sources */,
+				911ADCDA21267835008F87E1 /* MasterTableCell.swift in Sources */,
+				91FB7FC121217DAD007F9FDA /* MasterViewController.swift in Sources */,
+				91242453212A5B9200DCBD9D /* Alamofire.swift in Sources */,
+				91242457212A5FEA00DCBD9D /* ComicCharacter.swift in Sources */,
+				91B3C12A212D21E10087DC73 /* Response.swift in Sources */,
+				91FB7FBF21217DAD007F9FDA /* AppDelegate.swift in Sources */,
+				911E4051212E78B900AAB287 /* Constants.swift in Sources */,
+				911ADCE12126A76A008F87E1 /* ComicDetailViewController.swift in Sources */,
+				91242459212A611F00DCBD9D /* Thumbnail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FB7FCD21217DAF007F9FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FB7FD621217DAF007F9FDA /* WhatsThatGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FB7FD821217DAF007F9FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FB7FE121217DAF007F9FDA /* WhatsThatGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91FB7FD321217DAF007F9FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91FB7FBA21217DAD007F9FDA /* WhatsThatGame */;
+			targetProxy = 91FB7FD221217DAF007F9FDA /* PBXContainerItemProxy */;
+		};
+		91FB7FDE21217DAF007F9FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91FB7FBA21217DAD007F9FDA /* WhatsThatGame */;
+			targetProxy = 91FB7FDD21217DAF007F9FDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91FB7FC421217DAD007F9FDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FB7FC521217DAD007F9FDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91FB7FC921217DAF007F9FDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FB7FCA21217DAF007F9FDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91FB7FE321217DAF007F9FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91FB7FE421217DAF007F9FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91FB7FE621217DAF007F9FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2EAA1011366DAAB6A65097F /* Pods-WhatsThatGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47V6Q56G74;
+				INFOPLIST_FILE = WhatsThatGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fiel-storm.WhatsThatGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91FB7FE721217DAF007F9FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E2E3C2D6872628797772E91 /* Pods-WhatsThatGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47V6Q56G74;
+				INFOPLIST_FILE = WhatsThatGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fiel-storm.WhatsThatGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91FB7FE921217DAF007F9FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhatsThatGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fiel-storm.WhatsThatGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsThatGame.app/WhatsThatGame";
+			};
+			name = Debug;
+		};
+		91FB7FEA21217DAF007F9FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhatsThatGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fiel-storm.WhatsThatGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsThatGame.app/WhatsThatGame";
+			};
+			name = Release;
+		};
+		91FB7FEC21217DAF007F9FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhatsThatGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fiel-storm.WhatsThatGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhatsThatGame;
+			};
+			name = Debug;
+		};
+		91FB7FED21217DAF007F9FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhatsThatGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fiel-storm.WhatsThatGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhatsThatGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91FB7FB621217DAD007F9FDA /* Build configuration list for PBXProject "WhatsThatGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FB7FE321217DAF007F9FDA /* Debug */,
+				91FB7FE421217DAF007F9FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FB7FE521217DAF007F9FDA /* Build configuration list for PBXNativeTarget "WhatsThatGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FB7FE621217DAF007F9FDA /* Debug */,
+				91FB7FE721217DAF007F9FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FB7FE821217DAF007F9FDA /* Build configuration list for PBXNativeTarget "WhatsThatGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FB7FE921217DAF007F9FDA /* Debug */,
+				91FB7FEA21217DAF007F9FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FB7FEB21217DAF007F9FDA /* Build configuration list for PBXNativeTarget "WhatsThatGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FB7FEC21217DAF007F9FDA /* Debug */,
+				91FB7FED21217DAF007F9FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91FB7FB321217DAD007F9FDA /* Project object */;
+}
